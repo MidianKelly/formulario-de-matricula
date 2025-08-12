@@ -1,4 +1,11 @@
-.root {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
     font-family: 'Poppins', 'sans-serif';
     text: 400 1rem/1.5 var (font-size);
     text-sm: 400 .875rem/1.4 (font-family);
@@ -14,8 +21,10 @@
 
     stroke-default: #d6d3d1;
     stroke-highlight: #f3541c
-
     
+}
+body{
+    overflow: hidden;
 }
 .root{
     font-size: 1rem;
